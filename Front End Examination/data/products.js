@@ -1,0 +1,20 @@
+const products = [
+    {
+        id: "dsdeeadfefda-dsadsfe",
+        image: "img/pizza4.jpg",
+        title: "CLASSIC CHESSBURGER",
+        totalPrice: 30
+    },{
+        id: "dsdeeadfefda-dsaasfe",
+        image: "img/pizza5.jpg",
+        title: "GRILLED BEEF SUPREME",
+        totalPrice: 30
+    }, {
+        id: "dsdesddfefda-dsaasfe",
+        image: "img/pizza6.jpg",
+        title: "CHESSY MEATBALL BLAST",
+        totalPrice: 50
+    }
+];
+
+    

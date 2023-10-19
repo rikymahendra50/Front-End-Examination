@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrontEnd</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="container-kiri">
+            <div class="navbar">
+                <h1>Pizza List</h1>
+                <div class="cart1">
+                    <img src="img/logo-cart2.png" class="cart">
+                    <div class="quantity">0</div>
+                </div>
+            </div>
+            <div class="container-list-pizza">
+                <!-- main -->
+            </div>
+        </div>
+            <div class="container-kanan">
+                <div class="total-price-cart">
+                    <h3>Cart</h3>
+                    <p class="total-price-fix">Total Price: $<span>0</span></p>
+                </div>
+                <div class="cart-fix">
+                    <p class="empty">The Shopping Cart is Still Empty <br> Click item to add Cart</p>
+                </div>
+            </div>
+    </div>
+
+    <div class="pop-up-topping">
+        <h1>Toppings</h1>
+        <button class="tombol-close">X</button>
+        <div class="input">
+        <form action="">
+            <div class="one-dollars">
+                <input type="checkbox" id="avocado" name="avocado" value="Avocado">
+                <label for="avocado">Avocado ($1) </label><br>
+    
+                <input type="checkbox" id="brocoli" name="brocoli" value="Brocoli">
+                <label for="brocoli">Brocoli ($1)</label><br>
+    
+                <input type="checkbox" id="onions" name="onions" value="Onions">
+                <label for="onions">Onions ($1)</label><br>
+    
+                <input type="checkbox" id="zucchini" name="zucchini" value="Zucchini">
+                <label for="zucchini">Zucchini ($1)</label><br>
+            </div>
+
+            <div class="two-dollars">
+                <input type="checkbox" id="lobster" name="lobster" value="Lobster">
+                <label for="lobster">Lobster ($2)</label><br>
+
+                <input type="checkbox" id="oyster" name="oyster" value="Oyster">
+                <label for="oyster">Oyster ($2)</label><br>
+
+                <input type="checkbox" id="salmon" name="salmon" value="Salmon">
+                <label for="salmon">Salmon ($2)</label><br>
+
+                <input type="checkbox" id="tune" name="tune" value="Tune">
+                <label for="tune">Tune ($2)</label><br>
+            </div>
+
+            <div class="three-dollars">
+                <input type="checkbox" id="bacon" name="bacon" value="Bacon">
+                <label for="bacon">Bacon ($3)</label><br>
+
+                <input type="checkbox" id="duck" name="duck" value="Duck">
+                <label for="duck">Duck ($3)</label><br>
+
+                <input type="checkbox" id="ham" name="ham" value="Ham">
+                <label for="ham">Ham ($3)</label><br>
+
+                <input type="checkbox" id="sausage" name="sausage" value="Sausage">
+                <label for="sausage">Sausage ($3)</label><br>
+            </div>
+
+          </form>
+        </div>
+        <div class="total-price-button">
+            <p class="total-price">Total Price : <span>$0</span></p>
+            <button class="addCart">Add to Cart</button>
+        </div>
+    </div>
+
+    <div class="pop-up-cart">
+        <h1>The Shopping Cart is stil empty, click item to add to cart</h1>
+        <!-- <div class="test"></div> -->
+    </div>
+
+<script src="data/cart.js"></script>
+<script src="data/products.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
